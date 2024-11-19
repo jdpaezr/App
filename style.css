@@ -1,0 +1,47 @@
+/* Apply the background gradient to the main app container */
+.stApp {
+    background: linear-gradient(100deg, #b92b27 0%, #1565c0 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main title styling */
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+/* Subtitle styling */
+h2 {
+    color: #e1e1e1;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    justify-content: center;
+}
+
+/* Custom styling for tabs */
+.stTabs [role="tab"] {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.stTabs [role="tab"][aria-selected="true"] {
+    color: #ffffff;
+    background-color: #6a1b9a;
+}
